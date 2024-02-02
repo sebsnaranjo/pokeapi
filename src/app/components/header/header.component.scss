@@ -1,0 +1,25 @@
+@import "../../../assets/styles/colors.scss";
+
+.mat-toolbar{
+    background-color: #c72e2e;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.toolbar-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toolbar-image {
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y el texto "Home" */
+  }
+  
+  .toolbar-link {
+    text-decoration: none;
+    color: white; /* Color del texto */
+    font-weight: bold; /* Peso de la fuente, ajusta según sea necesario */
+    font-size: 16px; /* Tamaño de la fuente, ajusta según sea necesario */
+  }
