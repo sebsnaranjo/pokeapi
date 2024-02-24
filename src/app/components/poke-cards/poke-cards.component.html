@@ -1,0 +1,13 @@
+<mat-grid-list cols="3" rowHeight="1:1">
+  <mat-grid-tile *ngFor="let pokemon of data">
+    <mat-card class="card-container">
+      <mat-card-header>
+        <mat-card-title>{{ pokemon.name }}</mat-card-title>
+      </mat-card-header>
+      <img class="card-image" mat-card-image src="{{ pokemon.image }}" />
+      <mat-card-content class="card-content">
+        <p>Tipo: {{ pokemon.position }}</p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

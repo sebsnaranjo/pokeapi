@@ -1,0 +1,15 @@
+.card-container {
+  width: 300px;
+  margin: 10px;
+}
+
+.mat-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Altura mínima para las cartas */
+.mat-card-content {
+  min-height: 80px;
+}
+
