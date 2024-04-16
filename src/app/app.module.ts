@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/shared/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { PokeCardsComponent } from './components/poke-cards/poke-cards.component';
+import { ViewTabsComponent } from './components/view-tabs/view-tabs.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PokeCardsComponent } from './components/poke-cards/poke-cards.component
     HeaderComponent,
     PokeDetailComponent,
     PokeTableComponent,
-    PokeCardsComponent
+    PokeCardsComponent,
+    ViewTabsComponent
   ],
   imports: [
     BrowserModule,
