@@ -12,6 +12,7 @@ import { MaterialModule } from 'src/shared/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { PokeCardsComponent } from './components/poke-cards/poke-cards.component';
 import { ViewTabsComponent } from './components/view-tabs/view-tabs.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ViewTabsComponent } from './components/view-tabs/view-tabs.component';
     PokeDetailComponent,
     PokeTableComponent,
     PokeCardsComponent,
-    ViewTabsComponent
+    ViewTabsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
