@@ -1,25 +1,29 @@
 @import "../../../assets/styles/colors.scss";
 
-.mat-toolbar{
-    background-color: #c72e2e;
+.mat-toolbar {
+  background-color: #c72e2e;
 }
 
-img:hover{
-    cursor: pointer;
+img:hover {
+  cursor: pointer;
 }
 
 .toolbar-row {
-    display: flex;
-    align-items: center;
-  }
-  
-  .toolbar-image {
-    margin-right: 10px;
-  }
-  
-  .toolbar-link {
-    text-decoration: none;
-    color: white; 
-    font-weight: bold; 
-    font-size: 16px;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-image {
+  margin-right: 10px;
+}
+
+.toolbar-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.space {
+  margin-right: 5px;
+}

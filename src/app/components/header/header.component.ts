@@ -18,4 +18,8 @@ export class HeaderComponent implements OnInit{
     this.router.navigateByUrl('/home');
   }
 
+  pokemons(){
+    this.router.navigateByUrl('/pokemons');
+  }
+
 }
