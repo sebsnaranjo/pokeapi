@@ -94,8 +94,9 @@ body {
 
 #ver-pokemones {
     color: white;
-    background-color: red;
-    border-color: red;
+    background-color: #c72e2e;
+    border-color: #c72e2e;
     width: 150px;
     height: 50px;
+    margin-bottom: 30px;
 }
