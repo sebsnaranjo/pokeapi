@@ -86,3 +86,16 @@ body {
 .articles article:hover img {
     transform: scale(1.5); 
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#ver-pokemones {
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 150px;
+    height: 50px;
+}
