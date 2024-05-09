@@ -6,7 +6,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 $my-primary: mat-palette($mat-red, 500);
-
+$my-accent: mat-palette($mat-light-green, 800);
 
 $my-theme: mat-light-theme($my-primary, $my-accent);
 
